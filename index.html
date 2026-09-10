@@ -14,7 +14,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
 </head>
@@ -25,9 +25,9 @@
   <div class="container header-inner">
     <a href="#home" class="brand">
       <span class="brand-mark" aria-hidden="true">
-        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="17" cy="17" r="16.25" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M6 20.5C9 20.5 9.5 12.5 12.5 12.5C15 12.5 15 24 17.5 24C20 24 19.5 10 22.5 10C25 10 25.5 20.5 28 20.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="15" cy="15" r="14.25" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M5.5 18C8 18 8.5 11 11 11C13.2 11 13.2 21 15.5 21C17.8 21 17.6 8.8 20 8.8C22.2 8.8 22.6 18 25 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </span>
       <span class="brand-text">
@@ -40,15 +40,13 @@
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#services">Services</a>
+      <a href="#conditions">Conditions</a>
       <a href="#reviews">Reviews</a>
       <a href="#contact">Contact</a>
     </nav>
 
     <div class="header-actions">
-      <a class="btn btn-whatsapp header-wa" href="https://wa.me/919503696399?text=Hello%20ReCare%20Health%20Physiotherapy%20Clinic%2C%20I%20would%20like%20to%20enquire%20about%20an%20appointment." target="_blank" rel="noopener">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.42-1.36a9.9 9.9 0 0 0 4.62 1.15h.01c5.46 0 9.9-4.45 9.9-9.9C21.95 6.45 17.5 2 12.04 2Zm0 18.1h-.01a8.24 8.24 0 0 1-4.2-1.15l-.3-.18-3.12.78.83-3.03-.2-.31a8.2 8.2 0 0 1-1.26-4.4c0-4.55 3.71-8.26 8.27-8.26 2.21 0 4.28.86 5.84 2.42a8.2 8.2 0 0 1 2.42 5.84c0 4.56-3.71 8.29-8.27 8.29Zm4.53-6.19c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13-.17.24-.64.8-.79.97-.14.16-.29.18-.54.06-.25-.13-1.05-.39-2-1.23-.74-.66-1.24-1.48-1.39-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01-.16 0-.43.06-.66.31-.23.24-.86.85-.86 2.06s.89 2.39 1.01 2.55c.13.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.19.2-.58.2-1.08.14-1.19-.06-.1-.22-.16-.47-.28Z"/></svg>
-        <span>WhatsApp</span>
-      </a>
+      <a class="btn btn-accent header-book" href="https://wa.me/919503696399?text=Hello%20ReCare%20Health%20Physiotherapy%20Clinic%2C%20I%20would%20like%20to%20book%20an%20appointment.%20Please%20let%20me%20know%20the%20available%20timings." target="_blank" rel="noopener">Book Appointment</a>
       <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
         <span></span><span></span><span></span>
       </button>
@@ -60,9 +58,10 @@
     <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#services">Services</a>
+    <a href="#conditions">Conditions</a>
     <a href="#reviews">Reviews</a>
     <a href="#contact">Contact</a>
-    <a class="btn btn-whatsapp mobile-nav-wa" href="https://wa.me/919503696399?text=Hello%20ReCare%20Health%20Physiotherapy%20Clinic%2C%20I%20would%20like%20to%20enquire%20about%20an%20appointment." target="_blank" rel="noopener">Chat on WhatsApp</a>
+    <a class="btn btn-accent mobile-nav-cta" href="https://wa.me/919503696399?text=Hello%20ReCare%20Health%20Physiotherapy%20Clinic%2C%20I%20would%20like%20to%20book%20an%20appointment.%20Please%20let%20me%20know%20the%20available%20timings." target="_blank" rel="noopener">Book Appointment</a>
   </div>
 </header>
 
@@ -70,16 +69,19 @@
 
   <!-- ============ HERO ============ -->
   <section class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <img src="https://images.unsplash.com/photo-1540205895360-4ad4cffb3aa8?auto=format&fit=crop&w=1800&h=1400&q=80" alt="" loading="eager">
+    </div>
     <div class="container hero-inner">
       <div class="hero-copy reveal">
-        <p class="eyebrow">Physiotherapy &amp; Rehabilitation · Themghar, Bhiwandi</p>
-        <h1>Move Better.<br>Recover Stronger.<br><span class="accent-text">Live Better.</span></h1>
+        <p class="eyebrow eyebrow-light">Physiotherapy &amp; Rehabilitation · Themghar, Bhiwandi</p>
+        <h1>Move Better. Recover Stronger.<br><span class="accent-text">Live Better.</span></h1>
         <p class="hero-sub">Professional physiotherapy and rehabilitation care focused on pain relief, mobility, functional recovery and long-term rehabilitation.</p>
 
         <div class="hero-actions">
-          <a class="btn btn-primary" href="https://wa.me/919503696399?text=Hello%20ReCare%20Health%20Physiotherapy%20Clinic%2C%20I%20would%20like%20to%20book%20an%20appointment.%20Please%20let%20me%20know%20the%20available%20timings." target="_blank" rel="noopener">Book an Appointment</a>
-          <a class="btn btn-outline" href="https://wa.me/919503696399?text=Hello%20ReCare%20Health%20Physiotherapy%20Clinic%2C%20I%20would%20like%20to%20enquire%20about%20an%20appointment." target="_blank" rel="noopener">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.42-1.36a9.9 9.9 0 0 0 4.62 1.15h.01c5.46 0 9.9-4.45 9.9-9.9C21.95 6.45 17.5 2 12.04 2Z" opacity="0"/><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.42-1.36a9.9 9.9 0 0 0 4.62 1.15h.01c5.46 0 9.9-4.45 9.9-9.9C21.95 6.45 17.5 2 12.04 2Zm0 18.1h-.01a8.24 8.24 0 0 1-4.2-1.15l-.3-.18-3.12.78.83-3.03-.2-.31a8.2 8.2 0 0 1-1.26-4.4c0-4.55 3.71-8.26 8.27-8.26 2.21 0 4.28.86 5.84 2.42a8.2 8.2 0 0 1 2.42 5.84c0 4.56-3.71 8.29-8.27 8.29Z"/></svg>
+          <a class="btn btn-accent" href="https://wa.me/919503696399?text=Hello%20ReCare%20Health%20Physiotherapy%20Clinic%2C%20I%20would%20like%20to%20book%20an%20appointment.%20Please%20let%20me%20know%20the%20available%20timings." target="_blank" rel="noopener">Book an Appointment</a>
+          <a class="btn btn-ghost-light" href="https://wa.me/919503696399?text=Hello%20ReCare%20Health%20Physiotherapy%20Clinic%2C%20I%20would%20like%20to%20enquire%20about%20an%20appointment." target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.42-1.36a9.9 9.9 0 0 0 4.62 1.15h.01c5.46 0 9.9-4.45 9.9-9.9C21.95 6.45 17.5 2 12.04 2Zm0 18.1h-.01a8.24 8.24 0 0 1-4.2-1.15l-.3-.18-3.12.78.83-3.03-.2-.31a8.2 8.2 0 0 1-1.26-4.4c0-4.55 3.71-8.26 8.27-8.26 2.21 0 4.28.86 5.84 2.42a8.2 8.2 0 0 1 2.42 5.84c0 4.56-3.71 8.29-8.27 8.29Zm4.53-6.19c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13-.17.24-.64.8-.79.97-.14.16-.29.18-.54.06-.25-.13-1.05-.39-2-1.23-.74-.66-1.24-1.48-1.39-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01-.16 0-.43.06-.66.31-.23.24-.86.85-.86 2.06s.89 2.39 1.01 2.55c.13.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.19.2-.58.2-1.08.14-1.19-.06-.1-.22-.16-.47-.28Z"/></svg>
             Chat on WhatsApp
           </a>
         </div>
@@ -89,35 +91,22 @@
           <span><strong>4.8</strong> Google Rating &nbsp;•&nbsp; 23 Reviews</span>
         </div>
       </div>
-
-      <div class="hero-visual reveal">
-        <div class="hero-photo-frame">
-          <img src="https://images.unsplash.com/photo-1540205895360-4ad4cffb3aa8?auto=format&fit=crop&w=1000&h=1150&q=80" alt="Physiotherapy session focused on guided manual treatment" loading="eager" width="1000" height="1150">
-          <svg class="arc-badge" viewBox="0 0 140 140" aria-hidden="true">
-            <circle cx="70" cy="70" r="66" fill="#10403D"/>
-            <path d="M22 82 L34 60 L44 92 L56 46 L68 78 L80 62 C 92 48, 104 44, 118 52" stroke="#F7F4EC" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <p class="visual-caption">From limited movement to restored function</p>
-      </div>
     </div>
   </section>
 
-  <!-- ============ TRUST STRIP ============ -->
+  <!-- ============ TRUST / STATS STRIP ============ -->
   <section class="trust-strip">
     <div class="container trust-grid">
-      <div class="trust-item">
-        <span class="trust-num">4.8 ★</span>
+      <div class="trust-card reveal">
+        <span class="trust-num">4.8 <span class="trust-star">★</span></span>
         <span class="trust-label">Google Rating</span>
       </div>
-      <div class="trust-divider" aria-hidden="true"></div>
-      <div class="trust-item">
+      <div class="trust-card reveal">
         <span class="trust-num">23</span>
         <span class="trust-label">Google Reviews</span>
       </div>
-      <div class="trust-divider" aria-hidden="true"></div>
-      <div class="trust-item">
-        <span class="trust-num">Personalized</span>
+      <div class="trust-card reveal">
+        <span class="trust-num trust-num-sm">Personalized</span>
         <span class="trust-label">Patient-focused approach</span>
       </div>
     </div>
@@ -127,7 +116,7 @@
   <section class="about" id="about">
     <div class="container about-grid">
       <div class="about-visual reveal">
-        <img class="about-photo" src="https://images.unsplash.com/photo-1645005513713-9e2b92a687d3?auto=format&fit=crop&w=800&h=1000&q=80" alt="Guided rehabilitation exercise session at a physiotherapy clinic" loading="lazy" width="800" height="1000">
+        <img class="about-photo" src="https://images.unsplash.com/photo-1645005513713-9e2b92a687d3?auto=format&fit=crop&w=800&h=920&q=80" alt="Guided rehabilitation exercise session at a physiotherapy clinic" loading="lazy" width="800" height="920">
       </div>
       <div class="about-copy reveal">
         <p class="eyebrow">About the Clinic</p>
@@ -141,7 +130,7 @@
     </div>
   </section>
 
-  <!-- ============ SERVICES ============ -->
+  <!-- ============ SERVICES / TREATMENTS ============ -->
   <section class="services" id="services">
     <div class="container">
       <div class="section-head reveal">
@@ -153,60 +142,60 @@
       <div class="services-grid">
         <div class="service-card reveal">
           <div class="service-photo">
-            <img src="https://images.unsplash.com/photo-1699523229199-fce5aa6b0ec3?auto=format&fit=crop&w=600&h=440&q=80" alt="Hands-on physiotherapy approach for pain relief" loading="lazy" width="600" height="440">
+            <img src="https://images.unsplash.com/photo-1699523229199-fce5aa6b0ec3?auto=format&fit=crop&w=600&h=375&q=80" alt="Hands-on physiotherapy approach for pain relief" loading="lazy" width="600" height="375">
           </div>
           <div class="service-body">
-            <svg class="service-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-4.35-9.5-8.5C.7 9 2 5.5 5.3 4.7 7.5 4.2 9.7 5 12 7.5c2.3-2.5 4.5-3.3 6.7-2.8C22 5.5 23.3 9 21.5 12.5 19 16.65 12 21 12 21Z"/></svg>
+            <svg class="service-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-4.35-9.5-8.5C.7 9 2 5.5 5.3 4.7 7.5 4.2 9.7 5 12 7.5c2.3-2.5 4.5-3.3 6.7-2.8C22 5.5 23.3 9 21.5 12.5 19 16.65 12 21 12 21Z"/></svg>
             <h3>Pain Management</h3>
             <p>Structured, hands-on approaches aimed at reducing pain and easing discomfort in daily movement.</p>
           </div>
         </div>
         <div class="service-card reveal">
           <div class="service-photo">
-            <img src="https://images.unsplash.com/photo-1706353399656-210cca727a33?auto=format&fit=crop&w=600&h=440&q=80" alt="Individualized physiotherapy and rehabilitation treatment" loading="lazy" width="600" height="440">
+            <img src="https://images.unsplash.com/photo-1706353399656-210cca727a33?auto=format&fit=crop&w=600&h=375&q=80" alt="Individualized physiotherapy and rehabilitation treatment" loading="lazy" width="600" height="375">
           </div>
           <div class="service-body">
-            <svg class="service-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4v6M12 10l-4 8M12 10l4 8M8 4h8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="2.3" r="1.6" fill="currentColor" stroke="none"/></svg>
+            <svg class="service-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4v6M12 10l-4 8M12 10l4 8M8 4h8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="2.3" r="1.6" fill="currentColor" stroke="none"/></svg>
             <h3>Physiotherapy &amp; Rehabilitation</h3>
             <p>Individualized rehabilitation plans that combine therapeutic exercise with guided, progressive treatment.</p>
           </div>
         </div>
         <div class="service-card reveal">
           <div class="service-photo">
-            <img src="https://images.unsplash.com/photo-1617952986600-802f965dcdbc?auto=format&fit=crop&w=600&h=440&q=80" alt="Mobility and joint movement focused physiotherapy work" loading="lazy" width="600" height="440">
+            <img src="https://images.unsplash.com/photo-1617952986600-802f965dcdbc?auto=format&fit=crop&w=600&h=375&q=80" alt="Mobility and joint movement focused physiotherapy work" loading="lazy" width="600" height="375">
           </div>
           <div class="service-body">
-            <svg class="service-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12a8 8 0 1 1 8 8" stroke-linecap="round"/><path d="M4 12l3-3M4 12l3 3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <svg class="service-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12a8 8 0 1 1 8 8" stroke-linecap="round"/><path d="M4 12l3-3M4 12l3 3" stroke-linecap="round" stroke-linejoin="round"/></svg>
             <h3>Mobility &amp; Movement Improvement</h3>
             <p>Targeted work to improve joint range of motion, flexibility and everyday functional movement.</p>
           </div>
         </div>
         <div class="service-card reveal">
           <div class="service-photo">
-            <img src="https://images.unsplash.com/photo-1645005513709-77336f075dc8?auto=format&fit=crop&w=600&h=440&q=80" alt="Assisted functional movement and recovery exercise" loading="lazy" width="600" height="440">
+            <img src="https://images.unsplash.com/photo-1645005513709-77336f075dc8?auto=format&fit=crop&w=600&h=375&q=80" alt="Assisted functional movement and recovery exercise" loading="lazy" width="600" height="375">
           </div>
           <div class="service-body">
-            <svg class="service-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 17l6-6 4 4 8-8" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 7h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <svg class="service-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 17l6-6 4 4 8-8" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 7h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg>
             <h3>Functional Recovery</h3>
             <p>Recovery plans designed around the activities that matter to you — work, sport, or daily life.</p>
           </div>
         </div>
         <div class="service-card reveal">
           <div class="service-photo">
-            <img src="https://images.unsplash.com/photo-1649751361457-01d3a696c7e6?auto=format&fit=crop&w=600&h=440&q=80" alt="Injury assessment as part of rehabilitation care" loading="lazy" width="600" height="440">
+            <img src="https://images.unsplash.com/photo-1649751361457-01d3a696c7e6?auto=format&fit=crop&w=600&h=375&q=80" alt="Injury assessment as part of rehabilitation care" loading="lazy" width="600" height="375">
           </div>
           <div class="service-body">
-            <svg class="service-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8" stroke-linecap="round"/><circle cx="12" cy="12" r="3.4"/></svg>
+            <svg class="service-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8" stroke-linecap="round"/><circle cx="12" cy="12" r="3.4"/></svg>
             <h3>Injury Rehabilitation</h3>
             <p>Guided rehabilitation support following sports injuries, orthopedic issues or post-surgical recovery.</p>
           </div>
         </div>
         <div class="service-card reveal">
           <div class="service-photo">
-            <img src="https://images.unsplash.com/photo-1645005512942-a17817fb7c11?auto=format&fit=crop&w=600&h=440&q=80" alt="Guided exercise using resistance band for movement training" loading="lazy" width="600" height="440">
+            <img src="https://images.unsplash.com/photo-1645005512942-a17817fb7c11?auto=format&fit=crop&w=600&h=375&q=80" alt="Guided exercise using resistance band for movement training" loading="lazy" width="600" height="375">
           </div>
           <div class="service-body">
-            <svg class="service-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 4h6l1 3H8l1-3Z" stroke-linejoin="round"/><path d="M8 7v6a4 4 0 0 0 8 0V7" stroke-linecap="round"/><path d="M12 17v3M9 20h6" stroke-linecap="round"/></svg>
+            <svg class="service-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 4h6l1 3H8l1-3Z" stroke-linejoin="round"/><path d="M8 7v6a4 4 0 0 0 8 0V7" stroke-linecap="round"/><path d="M12 17v3M9 20h6" stroke-linecap="round"/></svg>
             <h3>Exercise &amp; Movement Guidance</h3>
             <p>Home exercise guidance and posture-focused coaching to support progress between sessions.</p>
           </div>
@@ -215,12 +204,41 @@
     </div>
   </section>
 
+  <!-- ============ CONDITIONS ============ -->
+  <section class="conditions" id="conditions">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Areas We Support</p>
+        <h2>Conditions Physiotherapy Can Help With</h2>
+        <p class="section-sub">General areas that physiotherapy and rehabilitation commonly address. Every plan is discussed individually with you.</p>
+      </div>
+      <div class="conditions-grid reveal">
+        <span class="condition-chip">Neck Pain</span>
+        <span class="condition-chip">Back Pain</span>
+        <span class="condition-chip">Joint Pain</span>
+        <span class="condition-chip">Sports Injuries</span>
+        <span class="condition-chip">Mobility Problems</span>
+        <span class="condition-chip">Post-Injury Rehabilitation</span>
+        <span class="condition-chip">Post-Surgical Rehabilitation</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MID CTA ============ -->
+  <section class="mid-cta">
+    <div class="container mid-cta-inner reveal">
+      <h2>Don't See Your Condition Listed?</h2>
+      <p>Every recovery journey is different. Connect with ReCare Health Physiotherapy Clinic on WhatsApp to discuss your specific needs.</p>
+      <a class="btn btn-accent" href="https://wa.me/919503696399?text=Hello%20ReCare%20Health%20Physiotherapy%20Clinic%2C%20I%20would%20like%20to%20discuss%20my%20condition%20and%20enquire%20about%20physiotherapy%20support." target="_blank" rel="noopener">Consult on WhatsApp</a>
+    </div>
+  </section>
+
   <!-- ============ WHY CHOOSE ============ -->
   <section class="why-choose">
     <div class="container why-grid">
       <div class="why-copy reveal">
         <p class="eyebrow">Why ReCare Health</p>
-        <h2>A Rehabilitation-Focused<br>Approach to Care</h2>
+        <h2>A Rehabilitation-Focused Approach to Care</h2>
         <p class="section-sub">What patients can expect when they choose ReCare Health Physiotherapy Clinic.</p>
       </div>
       <ul class="why-list reveal">
@@ -234,11 +252,11 @@
     </div>
   </section>
 
-  <!-- ============ REVIEWS ============ -->
+  <!-- ============ TESTIMONIALS ============ -->
   <section class="reviews" id="reviews">
     <div class="container">
       <div class="section-head reveal">
-        <p class="eyebrow">Patient Reviews</p>
+        <p class="eyebrow">Testimonials</p>
         <h2>What Patients Say on Google</h2>
         <div class="reviews-score">
           <span class="stars" aria-hidden="true">★★★★★</span>
@@ -248,19 +266,34 @@
 
       <div class="reviews-grid">
         <blockquote class="review-card reveal">
-          <span class="stars" aria-hidden="true">★★★★★</span>
+          <div class="review-top">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span class="google-tag">
+              <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.5 12.27c0-.85-.08-1.67-.22-2.45H12v4.64h6.46c-.28 1.5-1.13 2.78-2.4 3.63v3.02h3.88c2.27-2.09 3.56-5.17 3.56-8.84Z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.94-2.9l-3.88-3.02c-1.08.72-2.45 1.15-4.06 1.15-3.13 0-5.78-2.11-6.73-4.96H1.27v3.11C3.25 21.3 7.28 24 12 24Z"/><path fill="#FBBC05" d="M5.27 14.27a7.2 7.2 0 0 1 0-4.54V6.62H1.27a12 12 0 0 0 0 10.76l4-3.11Z"/><path fill="#EA4335" d="M12 4.77c1.76 0 3.34.6 4.58 1.79l3.44-3.44C17.94 1.2 15.24 0 12 0 7.28 0 3.25 2.7 1.27 6.62l4 3.11C6.22 6.88 8.87 4.77 12 4.77Z"/></svg>
+              Google Review
+            </span>
+          </div>
           <p>"Highly professional with a personalized treatment plan that really works."</p>
-          <cite>Google Review</cite>
         </blockquote>
         <blockquote class="review-card reveal">
-          <span class="stars" aria-hidden="true">★★★★★</span>
+          <div class="review-top">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span class="google-tag">
+              <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.5 12.27c0-.85-.08-1.67-.22-2.45H12v4.64h6.46c-.28 1.5-1.13 2.78-2.4 3.63v3.02h3.88c2.27-2.09 3.56-5.17 3.56-8.84Z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.94-2.9l-3.88-3.02c-1.08.72-2.45 1.15-4.06 1.15-3.13 0-5.78-2.11-6.73-4.96H1.27v3.11C3.25 21.3 7.28 24 12 24Z"/><path fill="#FBBC05" d="M5.27 14.27a7.2 7.2 0 0 1 0-4.54V6.62H1.27a12 12 0 0 0 0 10.76l4-3.11Z"/><path fill="#EA4335" d="M12 4.77c1.76 0 3.34.6 4.58 1.79l3.44-3.44C17.94 1.2 15.24 0 12 0 7.28 0 3.25 2.7 1.27 6.62l4 3.11C6.22 6.88 8.87 4.77 12 4.77Z"/></svg>
+              Google Review
+            </span>
+          </div>
           <p>"After treatment from Dr. Sheetal ma'am, I feel relieved."</p>
-          <cite>Google Review</cite>
         </blockquote>
         <blockquote class="review-card reveal">
-          <span class="stars" aria-hidden="true">★★★★★</span>
+          <div class="review-top">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span class="google-tag">
+              <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.5 12.27c0-.85-.08-1.67-.22-2.45H12v4.64h6.46c-.28 1.5-1.13 2.78-2.4 3.63v3.02h3.88c2.27-2.09 3.56-5.17 3.56-8.84Z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.94-2.9l-3.88-3.02c-1.08.72-2.45 1.15-4.06 1.15-3.13 0-5.78-2.11-6.73-4.96H1.27v3.11C3.25 21.3 7.28 24 12 24Z"/><path fill="#FBBC05" d="M5.27 14.27a7.2 7.2 0 0 1 0-4.54V6.62H1.27a12 12 0 0 0 0 10.76l4-3.11Z"/><path fill="#EA4335" d="M12 4.77c1.76 0 3.34.6 4.58 1.79l3.44-3.44C17.94 1.2 15.24 0 12 0 7.28 0 3.25 2.7 1.27 6.62l4 3.11C6.22 6.88 8.87 4.77 12 4.77Z"/></svg>
+              Google Review
+            </span>
+          </div>
           <p>"Great physiotherapy clinic with friendly staff."</p>
-          <cite>Google Review</cite>
         </blockquote>
       </div>
 
@@ -278,46 +311,49 @@
         <h2>Follow ReCare Health Physiotherapy Clinic</h2>
         <p>Stay connected with ReCare Health Physiotherapy Clinic for updates, recovery-focused information and clinic content.</p>
       </div>
-      <a class="btn btn-primary" href="https://www.instagram.com/recarehealthphysioclinic/" target="_blank" rel="noopener">
+      <a class="btn btn-accent" href="https://www.instagram.com/recarehealthphysioclinic/" target="_blank" rel="noopener">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
         Follow on Instagram
       </a>
     </div>
   </section>
 
-  <!-- ============ CONTACT / LOCATION ============ -->
+  <!-- ============ APPOINTMENT / CONTACT ============ -->
   <section class="contact" id="contact">
     <div class="container">
       <div class="section-head reveal">
-        <p class="eyebrow">Visit Us</p>
+        <p class="eyebrow">Book an Appointment</p>
         <h2>Visit ReCare Health Physiotherapy Clinic</h2>
+        <p class="section-sub">Connect with us on WhatsApp or by phone to discuss your physiotherapy and rehabilitation needs, or find us at our Themghar location.</p>
       </div>
 
-      <div class="contact-grid">
-        <div class="contact-info reveal">
-          <div class="info-row">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
-            <p>Shop No. 13, Sai Panash Building,<br>Opp. Sai Baba Temple, Themghar,<br>Bhiwandi, Maharashtra 421302</p>
-          </div>
-          <div class="info-row">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2Z"/></svg>
-            <p>+91 95036 96399</p>
-          </div>
-
-          <div class="contact-buttons">
-            <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=ReCare+Health+Physiotherapy+Clinic+Shop+No+13+Sai+Panash+Building+Themghar+Bhiwandi+421302" target="_blank" rel="noopener">Get Directions</a>
-            <a class="btn btn-outline" href="tel:+919503696399">Call Clinic</a>
-            <a class="btn btn-whatsapp" href="https://wa.me/919503696399?text=Hello%20ReCare%20Health%20Physiotherapy%20Clinic%2C%20I%20would%20like%20to%20enquire%20about%20an%20appointment." target="_blank" rel="noopener">WhatsApp Us</a>
-          </div>
+      <div class="contact-cards reveal">
+        <div class="contact-card">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+          <h3>Address</h3>
+          <p>Shop No. 13, Sai Panash Building,<br>Opp. Sai Baba Temple, Themghar,<br>Bhiwandi, Maharashtra 421302</p>
+          <a class="card-link" href="https://www.google.com/maps/search/?api=1&query=ReCare+Health+Physiotherapy+Clinic+Shop+No+13+Sai+Panash+Building+Themghar+Bhiwandi+421302" target="_blank" rel="noopener">Get Directions →</a>
         </div>
-
-        <div class="contact-map reveal">
-          <iframe
-            title="ReCare Health Physiotherapy Clinic location map"
-            src="https://www.google.com/maps?q=ReCare+Health+Physiotherapy+Clinic+Shop+No+13+Sai+Panash+Building+Themghar+Bhiwandi+421302&output=embed"
-            width="100%" height="100%" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
+        <div class="contact-card">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2Z"/></svg>
+          <h3>Phone</h3>
+          <p>+91 95036 96399</p>
+          <a class="card-link" href="tel:+919503696399">Call Clinic →</a>
         </div>
+        <div class="contact-card contact-card-accent">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.42-1.36a9.9 9.9 0 0 0 4.62 1.15h.01c5.46 0 9.9-4.45 9.9-9.9C21.95 6.45 17.5 2 12.04 2Zm0 18.1h-.01a8.24 8.24 0 0 1-4.2-1.15l-.3-.18-3.12.78.83-3.03-.2-.31a8.2 8.2 0 0 1-1.26-4.4c0-4.55 3.71-8.26 8.27-8.26 2.21 0 4.28.86 5.84 2.42a8.2 8.2 0 0 1 2.42 5.84c0 4.56-3.71 8.29-8.27 8.29Zm4.53-6.19c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13-.17.24-.64.8-.79.97-.14.16-.29.18-.54.06-.25-.13-1.05-.39-2-1.23-.74-.66-1.24-1.48-1.39-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01-.16 0-.43.06-.66.31-.23.24-.86.85-.86 2.06s.89 2.39 1.01 2.55c.13.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.19.2-.58.2-1.08.14-1.19-.06-.1-.22-.16-.47-.28Z"/></svg>
+          <h3>WhatsApp</h3>
+          <p>Fastest way to reach us — enquire or book anytime.</p>
+          <a class="card-link" href="https://wa.me/919503696399?text=Hello%20ReCare%20Health%20Physiotherapy%20Clinic%2C%20I%20would%20like%20to%20enquire%20about%20an%20appointment." target="_blank" rel="noopener">WhatsApp Us →</a>
+        </div>
+      </div>
+
+      <div class="contact-map reveal">
+        <iframe
+          title="ReCare Health Physiotherapy Clinic location map"
+          src="https://www.google.com/maps?q=ReCare+Health+Physiotherapy+Clinic+Shop+No+13+Sai+Panash+Building+Themghar+Bhiwandi+421302&output=embed"
+          width="100%" height="100%" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
     </div>
   </section>
@@ -325,9 +361,9 @@
   <!-- ============ FINAL CTA ============ -->
   <section class="final-cta">
     <div class="container final-cta-inner reveal">
-      <h2>Ready to Take the Next Step<br>in Your Recovery?</h2>
+      <h2>Ready to Take the Next Step in Your Recovery?</h2>
       <p>Connect with ReCare Health Physiotherapy Clinic to discuss your physiotherapy and rehabilitation needs.</p>
-      <a class="btn btn-primary btn-lg" href="https://wa.me/919503696399?text=Hello%20ReCare%20Health%20Physiotherapy%20Clinic%2C%20I%20would%20like%20to%20book%20an%20appointment.%20Please%20let%20me%20know%20the%20available%20timings." target="_blank" rel="noopener">Book Appointment on WhatsApp</a>
+      <a class="btn btn-accent btn-lg" href="https://wa.me/919503696399?text=Hello%20ReCare%20Health%20Physiotherapy%20Clinic%2C%20I%20would%20like%20to%20book%20an%20appointment.%20Please%20let%20me%20know%20the%20available%20timings." target="_blank" rel="noopener">Book Appointment on WhatsApp</a>
     </div>
   </section>
 
@@ -353,6 +389,7 @@
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#services">Services</a>
+      <a href="#conditions">Conditions</a>
       <a href="#reviews">Reviews</a>
       <a href="#contact">Contact</a>
     </div>
