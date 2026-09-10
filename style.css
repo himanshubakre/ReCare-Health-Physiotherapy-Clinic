@@ -124,12 +124,16 @@ p{margin:0 0 1em; color:var(--ink-soft); line-height:1.7;}
 .stars{color:var(--gold); letter-spacing:2px; font-size:0.95rem;}
 
 .hero-visual{display:flex; flex-direction:column; align-items:center; gap:14px;}
-.arc-svg{width:100%; max-width:420px; height:auto;}
-#recoveryPath{
-  stroke-dasharray:900; stroke-dashoffset:900;
-  animation:draw 2.2s ease forwards .3s;
+.hero-photo-frame{
+  position:relative; width:100%; max-width:400px;
+  border-radius:22px; overflow:hidden; box-shadow:var(--shadow-md);
+  aspect-ratio:1000/1150;
 }
-@keyframes draw{to{stroke-dashoffset:0;}}
+.hero-photo-frame img{width:100%; height:100%; object-fit:cover; display:block;}
+.arc-badge{
+  position:absolute; right:-14px; bottom:-14px; width:76px; height:76px;
+  filter:drop-shadow(0 6px 14px rgba(16,64,61,0.35));
+}
 .visual-caption{font-size:0.82rem; color:var(--ink-soft); text-align:center; font-style:italic;}
 
 /* ============ Trust strip ============ */
@@ -143,7 +147,10 @@ p{margin:0 0 1em; color:var(--ink-soft); line-height:1.7;}
 /* ============ About ============ */
 .about{padding:76px 0;}
 .about-grid{display:flex; flex-direction:column; gap:44px;}
-.about-svg{width:100%; max-width:340px; margin:0 auto; height:auto;}
+.about-photo{
+  width:100%; max-width:340px; margin:0 auto; height:auto; aspect-ratio:800/1000;
+  object-fit:cover; border-radius:18px; box-shadow:var(--shadow-md);
+}
 .about-copy h2{font-size:1.9rem;}
 .about-tags{display:flex; gap:10px; margin-top:18px; flex-wrap:wrap;}
 .about-tags span{
@@ -161,10 +168,14 @@ p{margin:0 0 1em; color:var(--ink-soft); line-height:1.7;}
 .services-grid{display:grid; grid-template-columns:1fr; gap:18px;}
 .service-card{
   background:var(--cream); border:1px solid var(--line); border-radius:var(--radius);
-  padding:30px 26px; transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+  overflow:hidden; transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
 }
 .service-card:hover{transform:translateY(-4px); box-shadow:var(--shadow-md); border-color:transparent;}
-.service-icon{color:var(--teal-deep); margin-bottom:16px;}
+.service-card:hover .service-photo img{transform:scale(1.06);}
+.service-photo{aspect-ratio:600/440; overflow:hidden;}
+.service-photo img{width:100%; height:100%; object-fit:cover; display:block; transition:transform .5s ease;}
+.service-body{padding:24px 24px 28px;}
+.service-icon{color:var(--teal-deep); margin-bottom:14px;}
 .service-card h3{font-size:1.12rem; margin-bottom:8px;}
 .service-card p{font-size:0.94rem; margin-bottom:0;}
 
@@ -302,4 +313,4 @@ p{margin:0 0 1em; color:var(--ink-soft); line-height:1.7;}
 
 @media (min-width:1180px){
   .hero-copy h1{font-size:3.7rem;}
-                  }
+}
