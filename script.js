@@ -37,7 +37,7 @@
   window.addEventListener("scroll", function () {
     var y = window.scrollY;
     if (header) {
-      header.style.boxShadow = y > 8 ? "0 4px 20px rgba(16,64,61,0.08)" : "none";
+      header.style.boxShadow = y > 8 ? "0 4px 20px rgba(11,42,74,0.1)" : "none";
     }
     lastScroll = y;
   }, { passive: true });
