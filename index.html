@@ -90,20 +90,14 @@
         </div>
       </div>
 
-      <div class="hero-visual reveal" aria-hidden="true">
-        <svg class="arc-svg" viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <linearGradient id="arcGrad" x1="0" y1="0" x2="1" y2="0">
-              <stop offset="0%" stop-color="#B8935B"/>
-              <stop offset="55%" stop-color="#1C5F58"/>
-              <stop offset="100%" stop-color="#10403D"/>
-            </linearGradient>
-          </defs>
-          <circle cx="240" cy="210" r="176" fill="#EDEFE7"/>
-          <path id="recoveryPath" d="M40 250 L58 190 L72 260 L86 170 L100 240 L118 205 C 160 150, 210 120, 260 130 C 320 143, 360 190, 420 175" stroke="url(#arcGrad)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-          <circle cx="420" cy="175" r="8" fill="#B8935B"/>
-          <circle cx="40" cy="250" r="6" fill="#10403D"/>
-        </svg>
+      <div class="hero-visual reveal">
+        <div class="hero-photo-frame">
+          <img src="https://images.unsplash.com/photo-1540205895360-4ad4cffb3aa8?auto=format&fit=crop&w=1000&h=1150&q=80" alt="Physiotherapy session focused on guided manual treatment" loading="eager" width="1000" height="1150">
+          <svg class="arc-badge" viewBox="0 0 140 140" aria-hidden="true">
+            <circle cx="70" cy="70" r="66" fill="#10403D"/>
+            <path d="M22 82 L34 60 L44 92 L56 46 L68 78 L80 62 C 92 48, 104 44, 118 52" stroke="#F7F4EC" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
         <p class="visual-caption">From limited movement to restored function</p>
       </div>
     </div>
@@ -132,16 +126,8 @@
   <!-- ============ ABOUT ============ -->
   <section class="about" id="about">
     <div class="container about-grid">
-      <div class="about-visual reveal" aria-hidden="true">
-        <svg viewBox="0 0 400 460" xmlns="http://www.w3.org/2000/svg" class="about-svg">
-          <rect x="0" y="0" width="400" height="460" rx="18" fill="#10403D"/>
-          <path d="M40 320 C 90 300, 110 250, 100 210 C 92 175, 120 150, 160 155" stroke="#E4E9E1" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.5"/>
-          <circle cx="200" cy="180" r="46" fill="#E4E9E1" opacity="0.95"/>
-          <path d="M200 226 C 150 232, 128 270, 128 320 L 272 320 C 272 270, 250 232, 200 226 Z" fill="#E4E9E1" opacity="0.95"/>
-          <path d="M110 360 Q 200 400 290 360" stroke="#B8935B" stroke-width="4" fill="none" stroke-linecap="round"/>
-          <circle cx="110" cy="360" r="6" fill="#B8935B"/>
-          <circle cx="290" cy="360" r="6" fill="#B8935B"/>
-        </svg>
+      <div class="about-visual reveal">
+        <img class="about-photo" src="https://images.unsplash.com/photo-1645005513713-9e2b92a687d3?auto=format&fit=crop&w=800&h=1000&q=80" alt="Guided rehabilitation exercise session at a physiotherapy clinic" loading="lazy" width="800" height="1000">
       </div>
       <div class="about-copy reveal">
         <p class="eyebrow">About the Clinic</p>
@@ -166,34 +152,64 @@
 
       <div class="services-grid">
         <div class="service-card reveal">
-          <svg class="service-icon" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-4.35-9.5-8.5C.7 9 2 5.5 5.3 4.7 7.5 4.2 9.7 5 12 7.5c2.3-2.5 4.5-3.3 6.7-2.8C22 5.5 23.3 9 21.5 12.5 19 16.65 12 21 12 21Z"/></svg>
-          <h3>Pain Management</h3>
-          <p>Structured, hands-on approaches aimed at reducing pain and easing discomfort in daily movement.</p>
+          <div class="service-photo">
+            <img src="https://images.unsplash.com/photo-1699523229199-fce5aa6b0ec3?auto=format&fit=crop&w=600&h=440&q=80" alt="Hands-on physiotherapy approach for pain relief" loading="lazy" width="600" height="440">
+          </div>
+          <div class="service-body">
+            <svg class="service-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-4.35-9.5-8.5C.7 9 2 5.5 5.3 4.7 7.5 4.2 9.7 5 12 7.5c2.3-2.5 4.5-3.3 6.7-2.8C22 5.5 23.3 9 21.5 12.5 19 16.65 12 21 12 21Z"/></svg>
+            <h3>Pain Management</h3>
+            <p>Structured, hands-on approaches aimed at reducing pain and easing discomfort in daily movement.</p>
+          </div>
         </div>
         <div class="service-card reveal">
-          <svg class="service-icon" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4v6M12 10l-4 8M12 10l4 8M8 4h8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="2.3" r="1.6" fill="currentColor" stroke="none"/></svg>
-          <h3>Physiotherapy &amp; Rehabilitation</h3>
-          <p>Individualized rehabilitation plans that combine therapeutic exercise with guided, progressive treatment.</p>
+          <div class="service-photo">
+            <img src="https://images.unsplash.com/photo-1706353399656-210cca727a33?auto=format&fit=crop&w=600&h=440&q=80" alt="Individualized physiotherapy and rehabilitation treatment" loading="lazy" width="600" height="440">
+          </div>
+          <div class="service-body">
+            <svg class="service-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4v6M12 10l-4 8M12 10l4 8M8 4h8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="2.3" r="1.6" fill="currentColor" stroke="none"/></svg>
+            <h3>Physiotherapy &amp; Rehabilitation</h3>
+            <p>Individualized rehabilitation plans that combine therapeutic exercise with guided, progressive treatment.</p>
+          </div>
         </div>
         <div class="service-card reveal">
-          <svg class="service-icon" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12a8 8 0 1 1 8 8" stroke-linecap="round"/><path d="M4 12l3-3M4 12l3 3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <h3>Mobility &amp; Movement Improvement</h3>
-          <p>Targeted work to improve joint range of motion, flexibility and everyday functional movement.</p>
+          <div class="service-photo">
+            <img src="https://images.unsplash.com/photo-1617952986600-802f965dcdbc?auto=format&fit=crop&w=600&h=440&q=80" alt="Mobility and joint movement focused physiotherapy work" loading="lazy" width="600" height="440">
+          </div>
+          <div class="service-body">
+            <svg class="service-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12a8 8 0 1 1 8 8" stroke-linecap="round"/><path d="M4 12l3-3M4 12l3 3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <h3>Mobility &amp; Movement Improvement</h3>
+            <p>Targeted work to improve joint range of motion, flexibility and everyday functional movement.</p>
+          </div>
         </div>
         <div class="service-card reveal">
-          <svg class="service-icon" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 17l6-6 4 4 8-8" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 7h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <h3>Functional Recovery</h3>
-          <p>Recovery plans designed around the activities that matter to you — work, sport, or daily life.</p>
+          <div class="service-photo">
+            <img src="https://images.unsplash.com/photo-1645005513709-77336f075dc8?auto=format&fit=crop&w=600&h=440&q=80" alt="Assisted functional movement and recovery exercise" loading="lazy" width="600" height="440">
+          </div>
+          <div class="service-body">
+            <svg class="service-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 17l6-6 4 4 8-8" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 7h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <h3>Functional Recovery</h3>
+            <p>Recovery plans designed around the activities that matter to you — work, sport, or daily life.</p>
+          </div>
         </div>
         <div class="service-card reveal">
-          <svg class="service-icon" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8" stroke-linecap="round"/><circle cx="12" cy="12" r="3.4"/></svg>
-          <h3>Injury Rehabilitation</h3>
-          <p>Guided rehabilitation support following sports injuries, orthopedic issues or post-surgical recovery.</p>
+          <div class="service-photo">
+            <img src="https://images.unsplash.com/photo-1649751361457-01d3a696c7e6?auto=format&fit=crop&w=600&h=440&q=80" alt="Injury assessment as part of rehabilitation care" loading="lazy" width="600" height="440">
+          </div>
+          <div class="service-body">
+            <svg class="service-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8" stroke-linecap="round"/><circle cx="12" cy="12" r="3.4"/></svg>
+            <h3>Injury Rehabilitation</h3>
+            <p>Guided rehabilitation support following sports injuries, orthopedic issues or post-surgical recovery.</p>
+          </div>
         </div>
         <div class="service-card reveal">
-          <svg class="service-icon" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 4h6l1 3H8l1-3Z" stroke-linejoin="round"/><path d="M8 7v6a4 4 0 0 0 8 0V7" stroke-linecap="round"/><path d="M12 17v3M9 20h6" stroke-linecap="round"/></svg>
-          <h3>Exercise &amp; Movement Guidance</h3>
-          <p>Home exercise guidance and posture-focused coaching to support progress between sessions.</p>
+          <div class="service-photo">
+            <img src="https://images.unsplash.com/photo-1645005512942-a17817fb7c11?auto=format&fit=crop&w=600&h=440&q=80" alt="Guided exercise using resistance band for movement training" loading="lazy" width="600" height="440">
+          </div>
+          <div class="service-body">
+            <svg class="service-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 4h6l1 3H8l1-3Z" stroke-linejoin="round"/><path d="M8 7v6a4 4 0 0 0 8 0V7" stroke-linecap="round"/><path d="M12 17v3M9 20h6" stroke-linecap="round"/></svg>
+            <h3>Exercise &amp; Movement Guidance</h3>
+            <p>Home exercise guidance and posture-focused coaching to support progress between sessions.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -370,4 +386,4 @@
 
 <script src="script.js"></script>
 </body>
-  </html>
+</html>
